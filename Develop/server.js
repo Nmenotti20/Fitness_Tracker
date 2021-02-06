@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const PORT = process.env.PORT || 3000;
 
 // Need to create a models to connect this ********
-const workout = require("./models/schema");
+const Workout = require("./models/schema");
 
 const app = express();
 
@@ -17,8 +17,11 @@ app.use(express.json());
 app.use(express.static("public"));
 app.use(require("./routes/htmlRoutes"));
 app.use(require("./routes/apiRoutes"));
+
 //Database fitness_db
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/fitness_db", { useNewUrlParser: true, useUnifiedTopology: true });
+// mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/fitness_db", { useNewUrlParser: true, useUnifiedTopology: true });
+
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true, useUnifiedTopology: true });
 
 // db.User.create({ name: "Ernest Hemingway" })
 //   .then(dbUser => {
