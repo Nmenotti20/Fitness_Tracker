@@ -1,16 +1,24 @@
 const router = require ("express").Router();
 const Workout = require ("../models/schema.js");
 
-// router.get("/api/workout", (req, res) =>   {
-//     Workout.aggregate([, {
-//         $aggregate: {
-//             excercises.
-//         }
-//     })
-//     .then((exercise) => {
-//         res.json(exercise)
-//     })
-// });
+//NEW 
+router.get('/api/workout', (req, res) => {
+    Workout.aggregate([
+      {
+        $addFields: {
+          totalDuration: {
+            $sum: '$exercises.duration',
+          },
+        },
+      },
+    ])
+      .then((Workout) => {
+        res.json(Workout);
+      })
+      .catch((err) => {
+        res.json(err);
+      });
+  });
 
 // Get Workouts
 router.get("/api/workouts", (req, res) => {
@@ -33,18 +41,29 @@ router.get("/api/workouts", (req, res) => {
 
 
 //PUT ROUTE for pushing the posted workouts to update the Dashboard
-router.put("/api/workout/:id", (req, res) =>   {
-    Workout.findOneAndUpdate({_id:req.params.id}, {
-        $push: {
-            exercises: req.body
-        }
-    })
-        .then((workout) =>  {
-            console.log(workout)
-            res.json(workout)
+// router.get("/api/workout/:id", (req, res) =>   {
+//     Workout.findOne({_id:req.params.id})
+//         .then((workout) =>  {
+//             console.log(workout)
+//             res.json(workout)
+//         })
+//     })
+
+//GET ROUTE for displaying the most recent exercise to the card.
+router.put('/api/workouts/:id', ({ body, params }, res) => {
+    Workout.findByIdAndUpdate(
+        params.id,
+        { $push: { exercises: body } },
+        // "runValidators" will ensure new exercises meet our schema requirements
+        { new: true, runValidators: true }
+        )
+        .then((dbWorkout) => {
+        res.json(dbWorkout);
         })
-    }
-)
+        .catch((err) => {
+        res.json(err);
+        });
+});   
 
 
 //POST ROUTE for creating a workout
