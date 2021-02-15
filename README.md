@@ -1,6 +1,6 @@
 # Fitness_Tracker
 
-[![GitHub followers](https://img.shields.io/github/followers/Nmenotti20?label=Follow&style=social)](https://github.com/Nmenotti20) [![project-top-language](https://img.shields.io/github/languages/top/Nmenotti20/Fitness_Tracker?color=yellow)](https://github.com/Nmenotti20/Fitness_Tracker) [![license](https://img.shields.io/badge/License-mit-brightgreen.svg)](https://choosealicense.com/licenses/mit/)
+[![GitHub followers](https://img.shields.io/github/followers/Nmenotti20?label=Follow&style=social)](https://github.com/Nmenotti20) [![project-top-language](https://img.shields.io/github/languages/top/Nmenotti20/Fitness_Tracker?color=yellow)][![project-top-language](https://img.shields.io/github/languages/top/Nmenotti20/Fitness_Tracker?color=blueviolet)][![project-top-language](https://img.shields.io/github/languages/top/Nmenotti20/Fitness_Tracker?color=red)](https://github.com/Nmenotti20/Fitness_Tracker) [![license](https://img.shields.io/badge/License-mit-brightgreen.svg)](https://choosealicense.com/licenses/mit/)
 
 ##### Version 1.0
 
@@ -21,7 +21,7 @@ As a user, I want to be able to view create and track my workouts. I want to log
 
 [GitHub Repo](https://github.com/Nmenotti20/Fitness_Tracker)<br>
 
-![Deployed Heroku App](https://fitnesstracker2021.herokuapp.com/)<br>
+[Deployed Heroku App](https://fitnesstracker2021.herokuapp.com/)<br>
 
 ### Installation
 After forking the repo from [https://github.com/Nmenotti20/Fitness_Tracker](https://github.com/Nmenotti20/Fitness_Tracker), install the required dependencies by running "npm install" in the root directory in your console.
