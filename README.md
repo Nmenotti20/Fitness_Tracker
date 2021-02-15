@@ -1,14 +1,6 @@
 # Fitness_Tracker
 
-[![GitHub followers](https://img.shields.io/github/followers/Nmenotti20?label=Follow&style=social)](https://github.com/Nmenotti20) 
-
-![project-top-languages](https://img.shields.io/github/languages/top/Nmenotti20/Fitness_Tracker?color=yellow)
-
-![project-top-languages](https://img.shields.io/badge/CSS-21.2%25-blueviolet)
-
-![project-top-languages](https://img.shields.io/badge/HTML-17.9%25-red)
-
-[![license](https://img.shields.io/badge/License-mit-brightgreen.svg)](https://choosealicense.com/licenses/mit/)
+[![GitHub followers](https://img.shields.io/github/followers/Nmenotti20?label=Follow&style=social)](https://github.com/Nmenotti20) ![project-top-languages](https://img.shields.io/github/languages/top/Nmenotti20/Fitness_Tracker?color=yellow) ![project-top-languages](https://img.shields.io/badge/CSS-21.2%25-blueviolet) ![project-top-languages](https://img.shields.io/badge/HTML-17.9%25-red) [![license](https://img.shields.io/badge/License-mit-brightgreen.svg)](https://choosealicense.com/licenses/mit/)
 
 ##### Version 1.0
 
