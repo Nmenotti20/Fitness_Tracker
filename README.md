@@ -1,6 +1,6 @@
 # Fitness_Tracker
 
-[![GitHub followers](https://img.shields.io/github/followers/Nmenotti20?label=Follow&style=social)](https://github.com/Nmenotti20) [![project-top-language](https://img.shields.io/github/languages/top/Nmenotti20/README_Generator?color=yellow)](https://github.com/Nmenotti20/Fitness_Tracker) [![license](https://img.shields.io/badge/License-mit-brightgreen.svg)](https://choosealicense.com/licenses/mit/)
+[![GitHub followers](https://img.shields.io/github/followers/Nmenotti20?label=Follow&style=social)](https://github.com/Nmenotti20) [![project-top-language](https://img.shields.io/github/languages/top/Nmenotti20/Fitness_Tracker?color=yellow)](https://github.com/Nmenotti20/Fitness_Tracker) [![license](https://img.shields.io/badge/License-mit-brightgreen.svg)](https://choosealicense.com/licenses/mit/)
 
 ##### Version 1.0
 
@@ -10,43 +10,31 @@
 2. [Installation](#Installation)
 3. [Usage](#Usage)
 4. [Credits](#Credits)
-5. [Command to Test](#Test)
-6. [License](#License)
+5. [License](#License)
 
 ### Project Description
-
-
+This Fitness Tracker project provides an app that will allow the user to track their workouts as they go. Workouts are separated in to "Resistance" and "Cardio" type of workouts with the ability to track the name of the excersise, the type, the weight, how many sets, and how many repetitions of the excersise for Resistance types. Cardio types can be tracked by name, distance, and duration in minutes. The user may add the excersise to the database, and then mark it complete when finished with it. The last completed excersise will display on the "Last Workout" card. The user may also go click on the Dashboard link to view their workout progress in a graph. The graph should display the cumulative completed exercises. 
 #### User Story
-As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+As a user, I want to be able to view create and track my workouts. I want to log multiple exercises in a workout on a given day. I want to be able to track the name, type, weight, sets, reps, and duration of exercises. If the exercise is a cardio exercise, I also want to track my distance traveled.
 
 #### Project Links:
 
 [GitHub Repo](https://github.com/Nmenotti20/Fitness_Tracker)<br>
 
-![Video Demo](/assets/demo.gif)<br>
-
-![Additional Links](/assets/image.jpg)<br>
+![Deployed Heroku App](https://fitnesstracker2021.herokuapp.com/)<br>
 
 ### Installation
-
-
-  
+After forking the repo from [https://github.com/Nmenotti20/Fitness_Tracker](https://github.com/Nmenotti20/Fitness_Tracker), install the required dependencies by running "npm install" in the root directory in your console.
 ### Usage
-
-
+To use this app, visit the Heroku deployed application [Deployed Heroku App](https://fitnesstracker2021.herokuapp.com/). Explore the app and see the Project Description section of this README.md for a basic understanding of functionality.
 ### Credits
 
 Special thanks to the following resources that inspired this project:
 
 <ul>
-<li> [https://websitesetup.org/mysql-cheat-sheet/]<https://websitesetup.org/mysql-cheat-sheet/>, </li>
-<li> [https://www.npmjs.com/package/mysql]<https://www.npmjs.com/package/mysql>, </li>
-<li> [https://www.npmjs.com/package/inquirer/v/0.2.3]<https://www.npmjs.com/package/inquirer/v/0.2.3> </li>
-<li> [https://www.npmjs.com/package/console.table]<https://www.npmjs.com/package/console.table> </li>
+<li> [https://mongoosejs.com/]<https://mongoosejs.com/>, </li>
+<li> [https://youtu.be/E68FWyktDwA]<https://youtu.be/E68FWyktDwA>, </li>
 </ul>
-
-### Command to Test
-
 
 ### License
 
