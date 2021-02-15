@@ -32,8 +32,8 @@ To use this app, visit the Heroku deployed application [Deployed Heroku App](htt
 Special thanks to the following resources that inspired this project:
 
 <ul>
-<li> [Mongoose.com]<https://mongoosejs.com/>, </li>
-<li> [Conquering freeCodeCamp - Exercise Tracker - Live Stream #47 - by Florin Pop]<https://youtu.be/E68FWyktDwA>, </li>
+<li> [Mongoose.com](https://mongoosejs.com/), </li>
+<li> [Conquering freeCodeCamp - Exercise Tracker - Live Stream #47 - by Florin Pop](https://youtu.be/E68FWyktDwA), </li>
 </ul>
 
 ### License
