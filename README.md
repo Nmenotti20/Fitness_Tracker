@@ -1,6 +1,6 @@
 # Fitness_Tracker
 
-[![GitHub followers](https://img.shields.io/github/followers/Nmenotti20?label=Follow&style=social)](https://github.com/Nmenotti20) [![project-top-language](https://img.shields.io/github/languages/top/Nmenotti20/Fitness_Tracker?color=yellow)][![project-top-language](https://img.shields.io/github/languages/top/Nmenotti20/Fitness_Tracker?color=blueviolet)][![project-top-language](https://img.shields.io/github/languages/top/Nmenotti20/Fitness_Tracker?color=red)](https://github.com/Nmenotti20/Fitness_Tracker) [![license](https://img.shields.io/badge/License-mit-brightgreen.svg)](https://choosealicense.com/licenses/mit/)
+[![GitHub followers](https://img.shields.io/github/followers/Nmenotti20?label=Follow&style=social)](https://github.com/Nmenotti20) [![project-top-language](https://img.shields.io/github/languages/top/Nmenotti20/Fitness_Tracker?color=yellow)][![project-top-language](https://img.shields.io/github/languages/public/style.css/Nmenotti20/Fitness_Tracker?color=blueviolet)][![project-top-language](https://img.shields.io/github/languages/top/Nmenotti20/Fitness_Tracker?color=red)](https://github.com/Nmenotti20/Fitness_Tracker) [![license](https://img.shields.io/badge/License-mit-brightgreen.svg)](https://choosealicense.com/licenses/mit/)
 
 ##### Version 1.0
 
